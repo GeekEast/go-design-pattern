@@ -1,7 +1,7 @@
 package main
 
-import "design-patterns/Behaviour/Observer"
+import "design-patterns/Structure/Decorator"
 
 func main() {
-	Observer.Run()
+	Decorator.Run()
 }

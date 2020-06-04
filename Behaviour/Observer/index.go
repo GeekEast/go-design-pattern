@@ -2,7 +2,7 @@ package Observer
 
 import "time"
 
-func Run() {
+func Client() {
 	store := NewStore()
 	consumer1 := Observer{"1"}
 	consumer2 := Observer{"2"}
