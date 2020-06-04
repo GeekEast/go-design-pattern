@@ -24,8 +24,6 @@ func (e *algorithm2Entity) algorithm() {
 	fmt.Println("algorithm 2")
 }
 
-
-
 // Retrieve Strategy
 // get strategy from global map
 var Store = map[string]Strategy{

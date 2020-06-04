@@ -75,6 +75,12 @@ func use(t string) {
 - 分层思维 -> 解耦以易于拓展
 - 组合而非继承 -> 降低复用粒度, 解除复杂关系
 - 类的封装 -> 开闭原则, 在拓展的时候没有副作用
+- `is-a`是狭义的`has-a`:
+  - Employ has sth belonging to Person (has-a)
+  - Employ has all things belonging to Person (is-a)
+  - What if Employ has sth belongs to Bird?
+    - No mutilple inheritance
+    - Now we can use composition
 
 ## Reference
 - [策略模式1](https://design-patterns.readthedocs.io/zh_CN/latest/behavioral_patterns/strategy.html)
