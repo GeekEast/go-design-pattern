@@ -79,6 +79,11 @@ func use(t string) {
 - 在组合模式下，**实体性质的**struct成员变量包含**属性**和**行为**，而行为则是以接口的形式存在，新建struct的时候可以传入行为性质的struct帮助实体性质的struct实现其方法。
 - 在组合模式下, 将func绑定在某个struct上面仅仅适用于行为性质的struct, 这类struct存在的核心价值在于其方法，成员属性作为状态而服务于struct的方法。
 
+## Summary
+- 分层思维 -> 解耦以易于拓展
+- 组合而非继承 -> 降低复用粒度, 解除复杂关系
+- 类的封装 -> 开闭原则, 在拓展的时候没有副作用
+
 ## Reference
 - [策略模式1](https://design-patterns.readthedocs.io/zh_CN/latest/behavioral_patterns/strategy.html)
 - [策略模式2](https://refactoringguru.cn/design-patterns/strategy)
