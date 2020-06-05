@@ -31,3 +31,7 @@ func Test() {
 
 ## References
 - [Design Patterns in Golang](https://golangbyexample.com/all-design-patterns-golang/)
+- [Refactoring Guru](https://refactoringguru.cn/design-patterns)
+- [Graphic Design Patterns](https://design-patterns.readthedocs.io/)
+- [Design Patterns in Object Oriented Programming](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+- [设计模式之美](https://time.geekbang.org/column/intro/250)
