@@ -23,5 +23,11 @@ func Test() {
 }
 ```
 
+## One Sentence
+- **Common**: `Interface First`
+- **Strategy Pattern**: `Behaviour Class`
+- **Observer Pattern**: `A Push B,then A should compose B`
+- **Decorator Pattern**: `Nested doll`
+
 ## References
 - [Design Patterns in Golang](https://golangbyexample.com/all-design-patterns-golang/)

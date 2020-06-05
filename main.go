@@ -1,7 +1,7 @@
 package main
 
-import "design-patterns/Structure/Decorator"
+import strategy "design-patterns/Behaviour/Strategy"
 
 func main() {
-	Decorator.Run()
+	strategy.Run()
 }
